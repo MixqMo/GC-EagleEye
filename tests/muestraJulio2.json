@@ -1,0 +1,554 @@
+{
+      "ocid": "ocds-xqjsxa-31800327",
+      "releases": [
+        {
+          "url": "https://ocds.guatecompras.gt/release/GT-NOG-31800327-T639239076888923565",
+          "date": "2026-09-01T14:07:12-06:00",
+          "tag": [
+            "tender",
+            "award"
+          ]
+        }
+      ],
+      "compiledRelease": {
+        "ocid": "ocds-xqjsxa-31800327",
+        "date": "2026-09-01T14:07:12-06:00",
+        "publishedDate": "2026-09-02T01:01:28-06:00",
+        "language": "es",
+        "tag": [
+          "compiled"
+        ],
+        "initiationType": "tender",
+        "parties": [
+          {
+            "identifier": {
+              "scheme": "GT-CISP",
+              "id": "21100080"
+            },
+            "address": {
+              "streetAddress": "7a. Avenida 2-29, zona 9.",
+              "locality": "GUATEMALA",
+              "region": "GUATEMALA",
+              "countryName": "GUATEMALA"
+            },
+            "contactPoint": {
+              "name": "INSTITUTO NACIONAL DE ELECTRIFICACIÓN -INDE",
+              "email": "agarcia@inde.gob.gt",
+              "telephone": "2422-1800",
+              "faxNumber": "24222006"
+            },
+            "roles": [
+              "buyer"
+            ],
+            "details": {
+              "level": {
+                "description": "Instituto",
+                "id": "71"
+              },
+              "entityType": {
+                "description": "Empresas Públicas (Nacionales y Municipales)",
+                "id": "7"
+              },
+              "type": {
+                "description": "Sector Público",
+                "id": "1"
+              }
+            },
+            "id": "GT-CISP-21100080",
+            "name": "INSTITUTO NACIONAL DE ELECTRIFICACIÓN -INDE"
+          },
+          {
+            "identifier": {
+              "scheme": "GT-GCUC",
+              "id": "62-14"
+            },
+            "address": {
+              "streetAddress": "Entrada a Colonia Shoropin, Zona 2",
+              "locality": "CHIQUIMULA",
+              "region": "CHIQUIMULA",
+              "countryName": "GUATEMALA"
+            },
+            "contactPoint": {
+              "name": "EMPRESA ETCEE SISTEMA ORIENTAL",
+              "email": "aovalle@inde.gob.gt",
+              "telephone": "79420301"
+            },
+            "roles": [
+              "buyer"
+            ],
+            "memberOf": [
+              {
+                "id": "GT-CISP-21100080",
+                "name": "INSTITUTO NACIONAL DE ELECTRIFICACIÓN -INDE"
+              }
+            ],
+            "details": {
+              "entityType": {
+                "id": "0"
+              },
+              "type": {
+                "id": "0"
+              }
+            },
+            "id": "GT-GCUC-62-14",
+            "name": "EMPRESA ETCEE SISTEMA ORIENTAL"
+          },
+          {
+            "identifier": {
+              "scheme": "GT-NIT",
+              "id": "78070171"
+            },
+            "address": {
+              "streetAddress": "10 0 CALLE 0-26   Z.10 ",
+              "locality": "GUATEMALA",
+              "region": "GUATEMALA",
+              "countryName": "GUATEMALA"
+            },
+            "contactPoint": {
+              "name": "SOLUCIONES TOTALES EN ELECTRÓNICA, SOCIEDAD ANÓNIMA",
+              "email": "CONTADORGT@STEREN.COM.GT",
+              "telephone": "23115777"
+            },
+            "roles": [
+              "tenderer",
+              "supplier"
+            ],
+            "details": {
+              "legalEntityTypeDetail": {
+                "description": "SOCIEDAD ANÓNIMA",
+                "id": "2"
+              }
+            },
+            "id": "GT-NIT-78070171",
+            "name": "SOLUCIONES TOTALES EN ELECTRÓNICA, SOCIEDAD ANÓNIMA"
+          }
+        ],
+        "buyer": {
+          "id": "GT-NIT-2455404",
+          "name": "INSTITUTO NACIONAL DE ELECTRIFICACIÓN -INDE"
+        },
+        "bids": {
+          "details": [
+            {
+              "date": "2026-09-01T14:21:50-06:00",
+              "status": "valid",
+              "value": {
+                "amount": 259.0,
+                "currency": "GTQ"
+              },
+              "tenderers": [
+                {
+                  "id": "GT-NIT-78070171",
+                  "name": "SOLUCIONES TOTALES EN ELECTRÓNICA, SOCIEDAD ANÓNIMA"
+                }
+              ],
+              "id": "74C34D6E167AAA2142D0CF383660EE49"
+            }
+          ]
+        },
+        "tender": {
+          "title": "Compra Directa por Adaptador de Señal y Convertidor Ethernet",
+          "status": "complete",
+          "statusDetails": "Adjudicado",
+          "datePublished": "2026-09-01T14:07:12-06:00",
+          "procuringEntity": {
+            "id": "GT-NIT-2455404",
+            "name": "INSTITUTO NACIONAL DE ELECTRIFICACIÓN -INDE"
+          },
+          "items": [
+            {
+              "description": "Adaptador de Señal",
+              "classification": {
+                "scheme": "UNSPSC",
+                "id": "39121020"
+              },
+              "quantity": 1.0,
+              "unit": {
+                "name": "Unidad"
+              },
+              "attributes": [
+                {
+                  "value": "Obligatorio salvo excepciones",
+                  "id": "9C23676137F5B781E87C6EAA02DEBBE3",
+                  "name": "Tipo de obligatoriedad"
+                },
+                {
+                  "value": "Compra Directa por Adaptador de Señal y Convertidor Ethernet",
+                  "id": "90FF6573F453F29F3591F841C7007230",
+                  "name": "Características"
+                }
+              ],
+              "id": "685A961CDD12D80519C7CA5E5DC8C3D6"
+            },
+            {
+              "description": "Cable Convertidor Ethernet",
+              "classification": {
+                "scheme": "UNSPSC",
+                "id": "43202222"
+              },
+              "quantity": 1.0,
+              "unit": {
+                "name": "Unidad"
+              },
+              "attributes": [
+                {
+                  "value": "Obligatorio salvo excepciones",
+                  "id": "7256A8DB2202E61B796CA47518FAE8F9",
+                  "name": "Tipo de obligatoriedad"
+                },
+                {
+                  "value": "Compra Directa por Adaptador de Señal y Convertidor Ethernet",
+                  "id": "247572328B27095B23829A666D7E488B",
+                  "name": "Características"
+                }
+              ],
+              "id": "52CA24D44504F0AE9003038AC851321A"
+            }
+          ],
+          "procurementMethod": "open",
+          "procurementMethodDetails": "Procedimientos regulados por el artículo 54 LCE",
+          "mainProcurementCategory": "goods",
+          "submissionMethod": [
+            "written"
+          ],
+          "tenderPeriod": {
+            "startDate": "2026-09-01T14:07:12-06:00",
+            "endDate": "2026-09-01T14:22:54-06:00"
+          },
+          "numberOfTenderers": 1,
+          "tenderers": [
+            {
+              "id": "GT-NIT-78070171",
+              "name": "SOLUCIONES TOTALES EN ELECTRÓNICA, SOCIEDAD ANÓNIMA"
+            }
+          ],
+          "documents": [
+            {
+              "documentType": "purchaseRequest",
+              "title": "Bases, especificaciones generales o términos de referencia",
+              "url": "http://www.guatecompras.gt/concursos/files/6361/31800327@Adaptador%20de%20Senal%20y%20Convertidor%20Ethernet.pdf",
+              "format": "application/pdf",
+              "language": "es",
+              "datePublished": "2026-09-01T14:07:12-06:00",
+              "documentTypeDetails": "Bases, especificaciones generales o términos de referencia",
+              "id": "9366C91401EA04F078BC549F1825B498"
+            },
+            {
+              "title": "Resolución de aprobación de bases o justificación de compra",
+              "url": "http://www.guatecompras.gt/concursos/files/6361/31800327@Adaptador%20de%20Senal%20y%20Convertidor%20Ethernet_1.pdf",
+              "format": "application/pdf",
+              "language": "es",
+              "datePublished": "2026-09-01T14:07:12-06:00",
+              "documentTypeDetails": "Resolución de aprobación de bases o justificación de compra",
+              "id": "B7F0A0F87164E56DEAD6055C54DAAE58"
+            }
+          ],
+          "id": "GT-NOG-31800327"
+        },
+        "awards": [
+          {
+            "title": "Compra Directa por Adaptador de Señal y Convertidor Ethernet",
+            "status": "active",
+            "statusDetails": "Habilitado",
+            "date": "2026-09-01T14:22:54-06:00",
+            "value": {
+              "amount": 259.0,
+              "currency": "GTQ"
+            },
+            "suppliers": [
+              {
+                "id": "GT-NIT-78070171",
+                "name": "SOLUCIONES TOTALES EN ELECTRÓNICA, SOCIEDAD ANÓNIMA"
+              }
+            ],
+            "id": "GT-ADJ-31800327-78070171"
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://www.guatecompras.gt",
+            "id": "GUATECOMPRAS",
+            "name": "Sistema de Información de Contrataciones y Adquisiciones del Estado"
+          }
+        ],
+        "dataSegmentation": {
+          "criteria": [
+            "añoPublicaciónConvocatoria",
+            "mesPublicaciónConvocatoria"
+          ],
+          "id": "2026-09"
+        },
+        "id": "ocds-xqjsxa-31800327-2026-09-01T14:07:12-06:00"
+      }
+    },
+    {
+      "ocid": "ocds-xqjsxa-31800157",
+      "releases": [
+        {
+          "url": "https://ocds.guatecompras.gt/release/GT-NOG-31800157-T639239076887797355",
+          "date": "2026-09-01T14:06:13-06:00",
+          "tag": [
+            "tender",
+            "award"
+          ]
+        }
+      ],
+      "compiledRelease": {
+        "ocid": "ocds-xqjsxa-31800157",
+        "date": "2026-09-01T14:06:13-06:00",
+        "publishedDate": "2026-09-02T01:01:28-06:00",
+        "language": "es",
+        "tag": [
+          "compiled"
+        ],
+        "initiationType": "tender",
+        "parties": [
+          {
+            "identifier": {
+              "scheme": "GT-CISP",
+              "id": "21100080"
+            },
+            "address": {
+              "streetAddress": "7a. Avenida 2-29, zona 9.",
+              "locality": "GUATEMALA",
+              "region": "GUATEMALA",
+              "countryName": "GUATEMALA"
+            },
+            "contactPoint": {
+              "name": "INSTITUTO NACIONAL DE ELECTRIFICACIÓN -INDE",
+              "email": "agarcia@inde.gob.gt",
+              "telephone": "2422-1800",
+              "faxNumber": "24222006"
+            },
+            "roles": [
+              "buyer"
+            ],
+            "details": {
+              "level": {
+                "description": "Instituto",
+                "id": "71"
+              },
+              "entityType": {
+                "description": "Empresas Públicas (Nacionales y Municipales)",
+                "id": "7"
+              },
+              "type": {
+                "description": "Sector Público",
+                "id": "1"
+              }
+            },
+            "id": "GT-CISP-21100080",
+            "name": "INSTITUTO NACIONAL DE ELECTRIFICACIÓN -INDE"
+          },
+          {
+            "identifier": {
+              "scheme": "GT-GCUC",
+              "id": "62-14"
+            },
+            "address": {
+              "streetAddress": "Entrada a Colonia Shoropin, Zona 2",
+              "locality": "CHIQUIMULA",
+              "region": "CHIQUIMULA",
+              "countryName": "GUATEMALA"
+            },
+            "contactPoint": {
+              "name": "EMPRESA ETCEE SISTEMA ORIENTAL",
+              "email": "aovalle@inde.gob.gt",
+              "telephone": "79420301"
+            },
+            "roles": [
+              "buyer"
+            ],
+            "memberOf": [
+              {
+                "id": "GT-CISP-21100080",
+                "name": "INSTITUTO NACIONAL DE ELECTRIFICACIÓN -INDE"
+              }
+            ],
+            "details": {
+              "entityType": {
+                "id": "0"
+              },
+              "type": {
+                "id": "0"
+              }
+            },
+            "id": "GT-GCUC-62-14",
+            "name": "EMPRESA ETCEE SISTEMA ORIENTAL"
+          },
+          {
+            "identifier": {
+              "scheme": "GT-NIT",
+              "id": "68097786"
+            },
+            "address": {
+              "streetAddress": "3 AVENIDA 2-60   Z.2 ",
+              "locality": "QUETZALTEPEQUE",
+              "region": "CHIQUIMULA",
+              "countryName": "GUATEMALA"
+            },
+            "contactPoint": {
+              "name": "CORPORACION AMERICANA DOS MIL, SOCIEDAD ANONIMA",
+              "email": "brendacardona@americana2000.com.gt",
+              "telephone": "79440351/47681963"
+            },
+            "roles": [
+              "tenderer",
+              "supplier"
+            ],
+            "details": {
+              "legalEntityTypeDetail": {
+                "description": "SOCIEDAD ANÓNIMA",
+                "id": "2"
+              }
+            },
+            "id": "GT-NIT-68097786",
+            "name": "CORPORACION AMERICANA DOS MIL, SOCIEDAD ANONIMA"
+          }
+        ],
+        "buyer": {
+          "id": "GT-NIT-2455404",
+          "name": "INSTITUTO NACIONAL DE ELECTRIFICACIÓN -INDE"
+        },
+        "bids": {
+          "details": [
+            {
+              "date": "2026-09-01T14:18:17-06:00",
+              "status": "valid",
+              "value": {
+                "amount": 697.0,
+                "currency": "GTQ"
+              },
+              "tenderers": [
+                {
+                  "id": "GT-NIT-68097786",
+                  "name": "CORPORACION AMERICANA DOS MIL, SOCIEDAD ANONIMA"
+                }
+              ],
+              "id": "7D389AA9B1AC2460ED5B764160BB00BD"
+            }
+          ]
+        },
+        "tender": {
+          "title": "Compra Directa por Cafetera\n",
+          "status": "complete",
+          "statusDetails": "Adjudicado",
+          "datePublished": "2026-09-01T14:06:13-06:00",
+          "procuringEntity": {
+            "id": "GT-NIT-2455404",
+            "name": "INSTITUTO NACIONAL DE ELECTRIFICACIÓN -INDE"
+          },
+          "items": [
+            {
+              "description": "Compra Directa por Cafetera",
+              "classification": {
+                "scheme": "UNSPSC",
+                "id": "52141526"
+              },
+              "quantity": 1.0,
+              "unit": {
+                "name": "Unidad"
+              },
+              "attributes": [
+                {
+                  "value": "Obligatorio salvo excepciones",
+                  "id": "23AD6693D85783FA59CBF9C1A91DD634",
+                  "name": "Tipo de obligatoriedad"
+                },
+                {
+                  "value": "Compra Directa por Cafetera",
+                  "id": "1E54E8A112E22A1D96AB2708B28B374D",
+                  "name": "Características"
+                }
+              ],
+              "id": "D3F6733D0550DE46325DF449C228760F"
+            }
+          ],
+          "procurementMethod": "open",
+          "procurementMethodDetails": "Procedimientos regulados por el artículo 54 LCE",
+          "mainProcurementCategory": "goods",
+          "submissionMethod": [
+            "written"
+          ],
+          "tenderPeriod": {
+            "startDate": "2026-09-01T14:06:13-06:00",
+            "endDate": "2026-09-01T14:19:29-06:00"
+          },
+          "numberOfTenderers": 1,
+          "tenderers": [
+            {
+              "id": "GT-NIT-68097786",
+              "name": "CORPORACION AMERICANA DOS MIL, SOCIEDAD ANONIMA"
+            }
+          ],
+          "documents": [
+            {
+              "documentType": "purchaseRequest",
+              "title": "Bases, especificaciones generales o términos de referencia",
+              "url": "http://www.guatecompras.gt/concursos/files/6361/31800157@Cafetera.pdf",
+              "format": "application/pdf",
+              "language": "es",
+              "datePublished": "2026-09-01T14:06:13-06:00",
+              "documentTypeDetails": "Bases, especificaciones generales o términos de referencia",
+              "id": "5C2DD1D668C2896509A5434C4F3821DC"
+            },
+            {
+              "title": "Resolución de aprobación de bases o justificación de compra",
+              "url": "http://www.guatecompras.gt/concursos/files/6361/31800157@Cafetera_1.pdf",
+              "format": "application/pdf",
+              "language": "es",
+              "datePublished": "2026-09-01T14:06:13-06:00",
+              "documentTypeDetails": "Resolución de aprobación de bases o justificación de compra",
+              "id": "74F2BCCCA2EB83125648C67D953F30AE"
+            }
+          ],
+          "id": "GT-NOG-31800157"
+        },
+        "awards": [
+          {
+            "title": "Compra Directa por Cafetera\n",
+            "status": "active",
+            "statusDetails": "Habilitado",
+            "date": "2026-09-01T14:19:29-06:00",
+            "value": {
+              "amount": 697.0,
+              "currency": "GTQ"
+            },
+            "suppliers": [
+              {
+                "id": "GT-NIT-68097786",
+                "name": "CORPORACION AMERICANA DOS MIL, SOCIEDAD ANONIMA"
+              }
+            ],
+            "id": "GT-ADJ-31800157-68097786"
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://www.guatecompras.gt",
+            "id": "GUATECOMPRAS",
+            "name": "Sistema de Información de Contrataciones y Adquisiciones del Estado"
+          }
+        ],
+        "dataSegmentation": {
+          "criteria": [
+            "añoPublicaciónConvocatoria",
+            "mesPublicaciónConvocatoria"
+          ],
+          "id": "2026-09"
+        },
+        "id": "ocds-xqjsxa-31800157-2026-09-01T14:06:13-06:00"
+      }
+    },
+    {
+      "ocid": "ocds-xqjsxa-31800912",
+      "releases": [
+        {
+          "url": "https://ocds.guatecompras.gt/release/GT-NOG-31800912-T639239077003434126",
+          "date": "2026-09-01T14:29:21-06:00",
+          "tag": [
+            "tender",
+            "award"
+          ]
+        }
+      ]
