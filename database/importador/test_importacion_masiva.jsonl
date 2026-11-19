@@ -1,0 +1,4 @@
+{"code":"tenderer_count_mismatch","detail":"Declarados=4; distintos en ofertas=3","ocid":"ocds-xqjsxa-31798713","path":"$.compiledRelease.tender.numberOfTenderers","severity":"info","value":4}
+{"code":"tenderer_count_mismatch","detail":"Declarados=3; distintos en ofertas=2","ocid":"ocds-xqjsxa-31754686","path":"$.compiledRelease.tender.numberOfTenderers","severity":"info","value":3}
+{"code":"tenderer_count_mismatch","detail":"Declarados=4; distintos en ofertas=3","ocid":"ocds-xqjsxa-31836313","path":"$.compiledRelease.tender.numberOfTenderers","severity":"info","value":4}
+{"code":"tenderer_count_mismatch","detail":"Declarados=4; distintos en ofertas=3","ocid":"ocds-xqjsxa-31814565","path":"$.compiledRelease.tender.numberOfTenderers","severity":"info","value":4}

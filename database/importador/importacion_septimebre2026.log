@@ -1,0 +1,131 @@
+Procesados 1,000...
+Procesados 2,000...
+Procesados 3,000...
+Procesados 4,000...
+Procesados 5,000...
+Procesados 6,000...
+Procesados 7,000...
+Procesados 8,000...
+Procesados 9,000...
+Procesados 10,000...
+Procesados 11,000...
+Procesados 12,000...
+Procesados 13,000...
+Procesados 14,000...
+Procesados 15,000...
+Procesados 16,000...
+Procesados 17,000...
+Procesados 18,000...
+Procesados 19,000...
+Procesados 20,000...
+Procesados 21,000...
+Procesados 22,000...
+Procesados 23,000...
+Procesados 24,000...
+Procesados 25,000...
+Procesados 26,000...
+Procesados 27,000...
+Procesados 28,000...
+Procesados 29,000...
+Procesados 30,000...
+Procesados 31,000...
+Procesados 32,000...
+Procesados 33,000...
+Procesados 34,000...
+Procesados 35,000...
+{
+  "processed": 35401,
+  "valid": 35401,
+  "new_snapshots": 35301,
+  "promoted": 35301,
+  "issue_counts": {
+    "tenderer_count_mismatch": 263
+  },
+  "first_issues": [
+    {
+      "ocid": "ocds-xqjsxa-31798713",
+      "severity": "info",
+      "code": "tenderer_count_mismatch",
+      "path": "$.compiledRelease.tender.numberOfTenderers",
+      "detail": "Declarados=4; distintos en ofertas=3"
+    },
+    {
+      "ocid": "ocds-xqjsxa-31754686",
+      "severity": "info",
+      "code": "tenderer_count_mismatch",
+      "path": "$.compiledRelease.tender.numberOfTenderers",
+      "detail": "Declarados=3; distintos en ofertas=2"
+    },
+    {
+      "ocid": "ocds-xqjsxa-31836313",
+      "severity": "info",
+      "code": "tenderer_count_mismatch",
+      "path": "$.compiledRelease.tender.numberOfTenderers",
+      "detail": "Declarados=4; distintos en ofertas=3"
+    },
+    {
+      "ocid": "ocds-xqjsxa-31814565",
+      "severity": "info",
+      "code": "tenderer_count_mismatch",
+      "path": "$.compiledRelease.tender.numberOfTenderers",
+      "detail": "Declarados=4; distintos en ofertas=3"
+    },
+    {
+      "ocid": "ocds-xqjsxa-31868266",
+      "severity": "info",
+      "code": "tenderer_count_mismatch",
+      "path": "$.compiledRelease.tender.numberOfTenderers",
+      "detail": "Declarados=4; distintos en ofertas=3"
+    },
+    {
+      "ocid": "ocds-xqjsxa-31795153",
+      "severity": "info",
+      "code": "tenderer_count_mismatch",
+      "path": "$.compiledRelease.tender.numberOfTenderers",
+      "detail": "Declarados=5; distintos en ofertas=4"
+    },
+    {
+      "ocid": "ocds-xqjsxa-31861148",
+      "severity": "info",
+      "code": "tenderer_count_mismatch",
+      "path": "$.compiledRelease.tender.numberOfTenderers",
+      "detail": "Declarados=2; distintos en ofertas=1"
+    },
+    {
+      "ocid": "ocds-xqjsxa-31868428",
+      "severity": "info",
+      "code": "tenderer_count_mismatch",
+      "path": "$.compiledRelease.tender.numberOfTenderers",
+      "detail": "Declarados=2; distintos en ofertas=1"
+    },
+    {
+      "ocid": "ocds-xqjsxa-31842534",
+      "severity": "info",
+      "code": "tenderer_count_mismatch",
+      "path": "$.compiledRelease.tender.numberOfTenderers",
+      "detail": "Declarados=2; distintos en ofertas=1"
+    },
+    {
+      "ocid": "ocds-xqjsxa-31833381",
+      "severity": "info",
+      "code": "tenderer_count_mismatch",
+      "path": "$.compiledRelease.tender.numberOfTenderers",
+      "detail": "Declarados=2; distintos en ofertas=1"
+    },
+    {
+      "ocid": "ocds-xqjsxa-31779638",
+      "severity": "info",
+      "code": "tenderer_count_mismatch",
+      "path": "$.compiledRelease.tender.numberOfTenderers",
+      "detail": "Declarados=6; distintos en ofertas=5"
+    },
+    {
+      "ocid": "ocds-xqjsxa-31890903",
+      "severity": "info",
+      "code": "tenderer_count_mismatch",
+      "path": "$.compiledRelease.tender.numberOfTenderers",
+      "detail": "Declarados=2; distintos en ofertas=1"
+    }
+  ],
+  "run_id": 3
+}
